@@ -1,37 +1,39 @@
 # Dog Breed Identification built with Fast.ai's CNN using transfer learning
 ---
-### Description
+## Description
 
 I recommend running this notebook with administrator privileges.
 
 This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford dogs dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
+You can download the entire dataset and labels as a .zip file (you need a free Kaggle account to be able to download the file). [Download dataset](https://www.kaggle.com/competitions/dog-breed-identification/data)
+
 This project uses the [fast.ai](https://www.fast.ai/) library to create a convolutional neural network to classify dog breeds using transfer learning (ResNet34).
 
 This project is the technical foundation of my bachelor's thesis regarding dog breed identification and the assessment of the speed and accuracy of my trained model against similar dog breed identification models presented in the Kaggle challenge.
 
-This notebook also explores the concepts of exploratory data analysis (EDA) and other utilization functions to ease the testing and predictions of my trained model against new and unseen dog breed images.
+This notebook also explores the concepts of exploratory data analysis (EDA) and other useful functions to ease the evaluation, testing and predicting capabilities of my trained model against.
 
 ---
-### Structure
+## Structure
 
 This is a broad overview of the main table of content for this notebook.
 1.   Installs, Imports & Settings
 2.   Load dataset
 3.   EDA
-4.   Dataloader
-5.   Training
+4.   Training
+5.   Dataloader
 6.   Logging
 7.   Post-Training Analysis
 8.   Predictions
 9.   Exports
 10.   Clean-up
 ---
-### Technical Specifications
+## Technical Specifications
 
 This project was coded in a virtual environment using [anaconda notebooks](https://anaconda.org/). I recommend creating a separate development environment in Anaconda before starting off.
 
-The successful training of a model will result in a folder called `training`. That folder will hold a JSON file with the stats of the model's training since its first successful training run, This way, one can view the past training stats to help with tweaking the model further. The folder will also hold the exported trained model as a `.pkl` file.
+The successful training of a model will result in a directory called `training`. That directory will hold a JSON file with the stats of the model's training since its first successful training run, This way, one can view the past training stats to help with tweaking the model further. The directory will also hold the exported trained model as a `.pkl` file.
 
 My training was computed locally on an RTX-3070 GPU.
 
@@ -46,8 +48,7 @@ This projects all-in-one conda installation snippet:
 `conda install fastai pytorch pytorch-cuda -c fastai -c pytorch -c nvidia`
 
 ---
-
-### TODO
+## TODO
 * Automatic download of the Stanford dataset .zip file from Kaggle if it's not downloaded.
 * Better: `item_tfms` and `batch_tfms`.
 * Try to include more exceptions and better if statements.
