@@ -58,7 +58,6 @@ This projects all-in-one conda installation snippet:
 * View bounding boxes.
 * Hover effect over the second scatter plot.
 * Grammar, spell-checks, better comments, and structure.
-* Check that this locally produced notebook works on Google Colab.
 * Clean up (remove .zip file a.s.o.).
 * Link to thesis when done.
 * Publish code, choose license.
