@@ -43,7 +43,9 @@ Required installations and which versions I used (specified versions are not req
     * PyTorch CUDA (11.7)
 * Fast.ai (2.7.12)
 
-This projects all-in-one conda installation snippet:
+If you wish to use exactly my conda dependencies, and python packages then download and use the `environment.yml` and `requirements.txt` respectivly.
+
+If your conda installation can't find a certain package to download, then a tip is to use the dependency name, and `-c` flag to specify from what channel you want to download the dependencies from like to code snippet below:
 
 `conda install fastai pytorch pytorch-cuda -c fastai -c pytorch -c nvidia`
 
