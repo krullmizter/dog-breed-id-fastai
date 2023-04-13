@@ -2,13 +2,11 @@
 ---
 ## Description
 
-I recommend running this notebook with administrator privileges.
-
 This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford dogs dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
-You can download the entire dataset and labels as a .zip file (you need a free Kaggle account to be able to download the file). [Download dataset](https://www.kaggle.com/competitions/dog-breed-identification/data)
+You can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the entire dataset and labels as a .zip file (you need a free Kaggle account to be able to download the file).
 
-This project uses the [fast.ai](https://www.fast.ai/) library to create a convolutional neural network to classify dog breeds using transfer learning (ResNet34).
+This project uses the [fast.ai](https://www.fast.ai/) library to create an image classifier model to identify dog breeds by utilizing transfer learning and a convolutional neural network.
 
 This project is the technical foundation of my bachelor's thesis regarding dog breed identification and the assessment of the speed and accuracy of my trained model against similar dog breed identification models presented in the Kaggle challenge.
 
@@ -37,6 +35,8 @@ This is a broad overview of the main table of content for this notebook.
 10.   Clean-up
 ---
 ## Technical Specifications
+
+I recommend running this notebook with administrator privileges.
 
 This project was coded in a virtual environment using [anaconda notebooks](https://anaconda.org/). I recommend creating a separate development environment in Anaconda before starting off.
 
