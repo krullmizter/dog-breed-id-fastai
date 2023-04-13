@@ -15,6 +15,13 @@ This project is the technical foundation of my bachelor's thesis regarding dog b
 This notebook also explores the concepts of exploratory data analysis (EDA) and other useful functions to ease the evaluation, testing and predicting capabilities of my trained model against.
 
 ---
+## Goals
+
+The goal of an image classification problem is to minimize the loss. Loss refers to the measure of how well a models predictions match the actual classes/labels of the training data. A lower loss values indicates that the model is more accurate at making predictions.
+
+We also strive to achive a good accuracy as well. Accuracy is messured by how well the trained model can correctly predict/classify new data/images.
+
+---
 ## Structure
 
 This is a broad overview of the main table of content for this notebook.

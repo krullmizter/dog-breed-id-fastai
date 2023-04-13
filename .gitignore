@@ -1,5 +1,8 @@
+# General
 *.zip
 *.json
 .DS_Store
+
+# Project Specific
 stanford-dogs-dataset
 trained
