@@ -1,4 +1,5 @@
 *.zip
 *.json
+.DS_Store
 stanford-dogs-dataset
 trained
