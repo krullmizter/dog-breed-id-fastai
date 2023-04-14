@@ -2,27 +2,27 @@
 ---
 ## Description
 
-This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford dogs dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
+This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
-You can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the entire dataset and labels as a .zip file (you need a free Kaggle account to be able to download the file).
+You can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the entire dataset as a `.zip` file (you need a free Kaggle account to be able to download the file.)
 
-This project uses the [fast.ai](https://www.fast.ai/) library to create an image classifier model to identify dog breeds by utilizing transfer learning and a convolutional neural network.
+This project employs the [Fast.ai](https://www.fast.ai/) library to create an image classification model that leverages transfer learning and a convolutional neural network (CNN) to accurately identify different dog breeds.
 
-This project is the technical foundation of my bachelor's thesis regarding dog breed identification and the assessment of the speed and accuracy of my trained model against similar dog breed identification models presented in the Kaggle challenge.
+This project serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
 
-This notebook also explores the concepts of exploratory data analysis (EDA) and other useful functions to ease the evaluation, testing and predicting capabilities of my trained model against.
+This notebook explores the concepts of exploratory data analysis (EDA), data augmentation, image pre-processing among others.
 
 ---
 ## Goals
 
 The goal of an image classification problem is to minimize the loss. Loss refers to the measure of how well a models predictions match the actual classes/labels of the training data. A lower loss values indicates that the model is more accurate at making predictions.
 
-We also strive to achive a good accuracy as well. Accuracy is messured by how well the trained model can correctly predict/classify new data/images.
+Striving for a high level of accuracy is also key. Accuracy is messured by how well the trained model can correctly predict the classes of unseen new images.
 
 ---
 ## Structure
 
-This is a broad overview of the main table of content for this notebook.
+This is a broad overview of the main table of contents for this notebook:
 1.   Installs, Imports & Settings
 2.   Load dataset
 3.   EDA
@@ -32,15 +32,27 @@ This is a broad overview of the main table of content for this notebook.
 7.   Post-Training Analysis
 8.   Predictions
 9.   Exports
-10.   Clean-up
+10.  Clean-up
 ---
 ## Technical Specifications
 
-I recommend running this notebook with administrator privileges.
+Begin by downloading the repo [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai). If you don't have the dataset `.zip` file, download it from [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification/data).
 
-This project was coded in a virtual environment using [anaconda notebooks](https://anaconda.org/). I recommend creating a separate development environment in Anaconda before starting off.
+### Local Development
 
-The successful training of a model will result in a directory called `training`. That directory will hold a JSON file with the stats of the model's training since its first successful training run, This way, one can view the past training stats to help with tweaking the model further. The directory will also hold the exported trained model as a `.pkl` file.
+If you run this notebook locally, I recommend running it with administrative privileges.
+
+This project was coded locally in a virtual environment using [Anaconda notebooks](https://anaconda.org/). When working with anaconda I recommend creating a separate development environment before starting.
+
+### Google Colab
+
+If you want an easy way to run this notebook, use cloud hosted GPUs, and have an easy time with dependencies and packages, then use [Google Colab](https://colab.research.google.com/). To get started upload the `main.ipynb` to Colab. Then upload the dataset `.zip` file to your Google Drive. Lastly change `colab = True` in the settings cell.
+
+---
+
+When working with this notebook, a directory called `training` will be created. It will hold a `.json` file with the stats of the models training since its first successful training run. This way, one can view the past training stats to help with tweaking the model further. The directory will also hold the exported trained model as a `.pkl` file.
+
+---
 
 My training was computed locally on an RTX-3070 GPU.
 
@@ -50,9 +62,9 @@ Required installations and which versions I used (specified versions are not req
     * PyTorch CUDA (11.7)
 * Fast.ai (2.7.12)
 
-If you wish to use exactly my conda dependencies, and python packages then download and use the `environment.yml` and `requirements.txt` respectivly.
+If you wish to use exactly my dependencies, and Python packages then download and use the `environment.yml` and `requirements.txt` respectivly from this projects [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai).
 
-If your conda installation can't find a certain package to download, then a tip is to use the dependency name, and `-c` flag to specify from what channel you want to download the dependencies from like to code snippet below:
+If your conda installation can't find a certain package to download, then a tip is to use the dependency name, and the `-c` flag to specify from what channel you wish to download the dependency from:
 
 `conda install fastai pytorch pytorch-cuda -c fastai -c pytorch -c nvidia`
 
@@ -62,7 +74,7 @@ If your conda installation can't find a certain package to download, then a tip 
 * Better: `item_tfms` and `batch_tfms`.
 * Try to include more exceptions and better if statements.
 * Single or multi-item detection.
-* Add "time to train" to the validation metrics array
+* Add "time to train" to the stats .json file.
 * Wrap certain cells, and longer code into easy to use functions and methods.
 * View bounding boxes.
 * Hover effect over the second scatter plot.
