@@ -36,18 +36,20 @@ This is a broad overview of the main table of contents for this notebook:
 ---
 ## Technical Specifications
 
-Begin by downloading or cloning my repo [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai).
+Begin by downloading or cloning my repo [GitHub](https://github.com/krullmizter/dog-breed-id-fastai).
 
 ### Local Development
 
 If you run this notebook locally, I recommend running it with administrative privileges.
 
-This project was coded locally in a virtual environment using [Anaconda notebooks](https://anaconda.org/). When working with Anaconda I recommend creating a separate development environment before starting. You can download and use my conda env. file `environment.yml`, and Python packages `requirements.txt` in the GitHub repo.
+This project was coded locally in a virtual environment using [Anaconda notebooks](https://anaconda.org/). When working with Anaconda I recommend creating a separate development environment before starting. 
 
-Install conda dependencies:
-`conda env create -f environment.yaml`
+You can download and use my base env. files: `environment.yml`, `requirements.txt` for conda, and Python respectivly, in the GitHub repo.
 
-Install Python packages:
+Create a conda env. from the terminal:
+`conda env create -f environment.yaml`, or you can import the `environment.yaml` file in your Anaconda navigator.
+
+Install all Python packages with pip:
 `pip install -r requirements.txt`
 
 ### Google Colab
