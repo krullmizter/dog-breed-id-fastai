@@ -4,13 +4,13 @@
 
 This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
-This notebook will automatically download the Stanford dataset from my personal Google Drive, via a public link. But if you prefer you can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the dataset as a `.zip` file from Kaggle (you need a free Kaggle account to be able to download the file).
+This notebook will automatically download the Stanford dataset from my personal Google Drive, via a public link. But if you prefer you can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the dataset as a `.zip` file from Kaggle (you need a free Kaggle account to be able to download the file). If you do download the `.zip` file yourself, be sure to unzip the file in the repo's root dir., and rename the file: `stanford-dogs-dataset`
 
 This project employs Python and the [Fast.ai](https://github.com/fastai/fastai) library to create an image classification model that leverages transfer learning and a convolutional neural network (CNN) to accurately and efficiently identify dog breeds trained on the Stanford Dogs dataset.
 
 This project also serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
 
-This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, and image pre-processing among others.
+This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, image pre-processing among others.
 
 ---
 ## Goals
@@ -22,7 +22,7 @@ Striving for a high level of accuracy is also key. Accuracy is measured by how w
 ---
 ## Structure
 
-This is a broad overview of the main table of contents for this notebook:
+This is a broad overview of the main table of contents of this notebook:
 1.   Installs, Imports & Settings
 2.   Load the dataset
 3.   EDA
@@ -39,29 +39,29 @@ Begin by downloading or cloning the repo [GitHub](https://github.com/krullmizter
 
 ### Local Development (Anaconda)
 
-If you run this notebook locally, I recommend running it with administrative privileges.
+If you run this notebook locally, I recommend using [Anaconda notebooks](https://anaconda.org/), creating a new enviroment, and running Anaconda with administrative privileges.
 
-This project was coded locally in a virtual environment using [Anaconda notebooks](https://anaconda.org/). When working with Anaconda I recommend creating a separate development environment before starting. 
-
-You can download and use the base env. files: `environment.yml`, `requirements.txt` for conda, and Python respectivly, in the  [repo](https://github.com/krullmizter/dog-breed-id-fastai/tree/main/venv).
+You can download and use the base env. files: `environment.yaml`, `requirements.txt` for conda, and Python respectivly. The file can be found in the [repo](https://github.com/krullmizter/dog-breed-id-fastai/tree/main/venv).
 
 Create a conda env. from the terminal:
-`conda env create -f environment.yaml`, or import the `environment.yaml` file in your Anaconda navigator.
+`conda env create -f environment.yaml`, or import the `environment.yaml` file into your Anaconda navigator.
 
-Install all Python packages with pip:
+Install all the base Python packages with pip:
 `pip install -r requirements.txt`
 
+#### Errors
+#### `PackagesNotFoundError`
 If your conda installation can't find a certain package to download, then a tip is to use the dependency name, and the `-c` flag to specify from what channel you wish to download the dependency from:
 
 `conda install fastai pytorch pytorch-cuda -c fastai -c pytorch -c nvidia`
 
 ### Google Colab
 
-If you want an easy way to run this notebook, use cloud-hosted GPUs, and have an easy time with dependencies and packages, then use [Google Colab](https://colab.research.google.com/). To get started upload the `main.ipynb` to Colab.
+If you want an easy way to run this notebook, use cloud-hosted GPUs, and have an easy time with dependencies and packages, then I recommend [Google Colab](https://colab.research.google.com/). To get started upload the `main.ipynb` to Colab.
 
 ### Training Stats
 
-When working with this notebook, a directory called `training` will be created. It will hold a `.json` file with the stats of the model's training since its first successful training run. This way, one can view the past training stats to help with tweaking the model further. The directory will also hold the exported trained model as a `.pkl` file.
+When running this notebook, a directory called `training` will be created, in the root folder. It will hold a `.json` file with the stats of the model's training since its first successful training run. This way, one can view the past training stats to help with tweaking the model further. The directory will also hold the exported trained model as a `.pkl` file.
 
 ### Development
 
