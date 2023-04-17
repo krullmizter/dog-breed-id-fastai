@@ -70,12 +70,10 @@ If your conda installation can't find a certain package to download, then a tip 
 
 ---
 ## TODO
-* Automatic download of the Stanford dataset `.zip` file from Kaggle if it's not downloaded.
 * Better: `item_tfms` and `batch_tfms`.
 * Single or multi-item detection.
 * View bounding boxes.
 * Hover effect over the second scatter plot.
-* Clean up (remove `.zip` file).
 * Link to thesis when done.
 * Publish code, choose a license.
 ---
