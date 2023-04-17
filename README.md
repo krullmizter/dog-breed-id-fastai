@@ -4,11 +4,11 @@
 
 This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
-This notebook will automatically download the Stanford dataset from my personal Google Drive. But if you prefer you can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the dataset as a `.zip` file (you need a free Kaggle account to be able to download the file).
+This notebook will automatically download the Stanford dataset from my personal Google Drive, via a public link. But if you prefer you can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the dataset as a `.zip` file from Kaggle (you need a free Kaggle account to be able to download the file).
 
-This project employs the [Fast.ai](https://github.com/fastai/fastai) library to create an image classification model that leverages transfer learning and a convolutional neural network (CNN) to accurately identify different dog breeds.
+This project employs Python and the [Fast.ai](https://github.com/fastai/fastai) library to create an image classification model that leverages transfer learning and a convolutional neural network (CNN) to accurately and efficiently identify dog breeds trained on the Stanford Dogs dataset.
 
-This project serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
+This project also serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
 
 This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, and image pre-processing among others.
 
@@ -32,25 +32,28 @@ This is a broad overview of the main table of contents for this notebook:
 7.   Post-Training Analysis
 8.   Predictions
 9.   Exports
-10.  Clean-up
 ---
 ## Technical Specifications
 
-Begin by downloading or cloning my repo [GitHub](https://github.com/krullmizter/dog-breed-id-fastai).
+Begin by downloading or cloning the repo [GitHub](https://github.com/krullmizter/dog-breed-id-fastai).
 
-### Local Development
+### Local Development (Anaconda)
 
 If you run this notebook locally, I recommend running it with administrative privileges.
 
 This project was coded locally in a virtual environment using [Anaconda notebooks](https://anaconda.org/). When working with Anaconda I recommend creating a separate development environment before starting. 
 
-You can download and use my base env. files: `environment.yml`, `requirements.txt` for conda, and Python respectivly, in the GitHub repo.
+You can download and use the base env. files: `environment.yml`, `requirements.txt` for conda, and Python respectivly, in the  [repo](https://github.com/krullmizter/dog-breed-id-fastai/tree/main/venv).
 
 Create a conda env. from the terminal:
-`conda env create -f environment.yaml`, or you can import the `environment.yaml` file in your Anaconda navigator.
+`conda env create -f environment.yaml`, or import the `environment.yaml` file in your Anaconda navigator.
 
 Install all Python packages with pip:
 `pip install -r requirements.txt`
+
+If your conda installation can't find a certain package to download, then a tip is to use the dependency name, and the `-c` flag to specify from what channel you wish to download the dependency from:
+
+`conda install fastai pytorch pytorch-cuda -c fastai -c pytorch -c nvidia`
 
 ### Google Colab
 
@@ -64,7 +67,7 @@ When working with this notebook, a directory called `training` will be created. 
 
 My training was computed locally on an RTX-3070 GPU.
 
-The main libraries I used (specified versions are not required):
+The main software and libraries I used (specified versions are not required):
 * Anaconda (1.11.1)
     * Conda (23.3.1)
 * Python (3.10.9)
@@ -72,10 +75,6 @@ The main libraries I used (specified versions are not required):
 * PyTorch (2.0.0)
     * PyTorch CUDA (11.7)
 * Fast.ai (2.7.12)
-
-If your conda installation can't find a certain package to download, then a tip is to use the dependency name, and the `-c` flag to specify from what channel you wish to download the dependency from:
-
-`conda install fastai pytorch pytorch-cuda -c fastai -c pytorch -c nvidia`
 
 ---
 ## TODO
