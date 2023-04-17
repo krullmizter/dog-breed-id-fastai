@@ -10,21 +10,21 @@ This project employs the [Fast.ai](https://www.fast.ai/) library to create an im
 
 This project serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
 
-This notebook explores the concepts of exploratory data analysis (EDA), data augmentation, image pre-processing among others.
+This notebook explores the concepts of exploratory data analysis (EDA), data augmentation, and image pre-processing among others.
 
 ---
 ## Goals
 
-The goal of an image classification problem is to minimize the loss. Loss refers to the measure of how well a models predictions match the actual classes/labels of the training data. A lower loss values indicates that the model is more accurate at making predictions.
+The goal of an image classification problem is to minimize the loss. Loss refers to the measure of how well a model's predictions match the actual classes/labels of the training data. A lower loss value indicates that the model is more accurate at making predictions.
 
-Striving for a high level of accuracy is also key. Accuracy is messured by how well the trained model can correctly predict the classes of unseen new images.
+Striving for a high level of accuracy is also key. Accuracy is measured by how well the trained model can correctly predict the classes of unseen new images.
 
 ---
 ## Structure
 
 This is a broad overview of the main table of contents for this notebook:
 1.   Installs, Imports & Settings
-2.   Load dataset
+2.   Load the dataset
 3.   EDA
 4.   Training
 5.   Dataloader
@@ -42,15 +42,15 @@ Begin by downloading the repo [GitHub](https://github.com/krullmizter/dog-breed-
 
 If you run this notebook locally, I recommend running it with administrative privileges.
 
-This project was coded locally in a virtual environment using [Anaconda notebooks](https://anaconda.org/). When working with anaconda I recommend creating a separate development environment before starting.
+This project was coded locally in a virtual environment using [Anaconda notebooks](https://anaconda.org/). When working with Anaconda I recommend creating a separate development environment before starting.
 
 ### Google Colab
 
-If you want an easy way to run this notebook, use cloud hosted GPUs, and have an easy time with dependencies and packages, then use [Google Colab](https://colab.research.google.com/). To get started upload the `main.ipynb` to Colab. Then upload the dataset `.zip` file to your Google Drive. Lastly change `colab = True` in the settings cell.
+If you want an easy way to run this notebook, use cloud-hosted GPUs, and have an easy time with dependencies and packages, then use [Google Colab](https://colab.research.google.com/). To get started upload the `main.ipynb` to Colab. Then upload the dataset `.zip` file to your Google Drive. Lastly, change `colab = True` in the settings cell.
 
 ---
 
-When working with this notebook, a directory called `training` will be created. It will hold a `.json` file with the stats of the models training since its first successful training run. This way, one can view the past training stats to help with tweaking the model further. The directory will also hold the exported trained model as a `.pkl` file.
+When working with this notebook, a directory called `training` will be created. It will hold a `.json` file with the stats of the model's training since its first successful training run. This way, one can view the past training stats to help with tweaking the model further. The directory will also hold the exported trained model as a `.pkl` file.
 
 ---
 
@@ -62,7 +62,7 @@ Required installations and which versions I used (specified versions are not req
     * PyTorch CUDA (11.7)
 * Fast.ai (2.7.12)
 
-If you wish to use exactly my dependencies, and Python packages then download and use the `environment.yml` and `requirements.txt` respectivly from this projects [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai).
+If you wish to use exactly my dependencies, and Python packages then download and use the `environment.yml` and `requirements.txt` respectively from this project [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai).
 
 If your conda installation can't find a certain package to download, then a tip is to use the dependency name, and the `-c` flag to specify from what channel you wish to download the dependency from:
 
@@ -72,15 +72,11 @@ If your conda installation can't find a certain package to download, then a tip 
 ## TODO
 * Automatic download of the Stanford dataset .zip file from Kaggle if it's not downloaded.
 * Better: `item_tfms` and `batch_tfms`.
-* Try to include more exceptions and better if statements.
 * Single or multi-item detection.
-* Add "time to train" to the stats .json file.
-* Wrap certain cells, and longer code into easy to use functions and methods.
 * View bounding boxes.
 * Hover effect over the second scatter plot.
-* Grammar, spell-checks, better comments, and structure.
 * Clean up (remove .zip file a.s.o.).
 * Link to thesis when done.
-* Publish code, choose license.
+* Publish code, choose a license.
 ---
 Created by: Samuel Granvik [GitHub](https://github.com/krullmizter/) [LinkedIn](https://www.linkedin.com/in/samuel-granvik-93977013a/)
