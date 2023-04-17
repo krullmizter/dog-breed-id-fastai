@@ -84,6 +84,7 @@ flit_core @ file:///opt/conda/conda-bld/flit-core_1644941570762/work/source/flit
 fonttools==4.25.0
 fsspec @ file:///C:/b/abs_5bjz6v0w_f/croot/fsspec_1670336608940/work
 future @ file:///C:/b/abs_3dcibf18zi/croot/future_1677599891380/work
+gdown==4.7.1
 gensim @ file:///C:/b/abs_a5vat69tv8/croot/gensim_1674853640591/work
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 greenlet @ file:///C:/b/abs_47lk_w2ajq/croot/greenlet_1670513248400/work

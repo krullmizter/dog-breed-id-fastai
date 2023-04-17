@@ -1,4 +1,4 @@
-name: dog-breed-id-env
+name: dog-breed-id
 channels:
   - pytorch
   - fastai
@@ -467,8 +467,10 @@ dependencies:
   - zstandard=0.19.0=py310h2bbff1b_0
   - zstd=1.5.2=h19a0ad4_0
   - pip:
+      - gdown==4.7.1
       - pylint-venv==2.3.0
       - qstylizer==0.2.2
       - qtawesome==1.2.2
       - qtconsole==5.4.0
       - torchvision==0.15.0
+prefix: C:\Users\samgr\anaconda3

@@ -4,7 +4,7 @@
 
 This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
-You can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the entire dataset as a `.zip` file (you need a free Kaggle account to be able to download the file).
+This notebook will automatically download the Stanford dataset from my personal Google Drive. But if you prefer you can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the dataset as a `.zip` file (you need a free Kaggle account to be able to download the file).
 
 This project employs the [Fast.ai](https://github.com/fastai/fastai) library to create an image classification model that leverages transfer learning and a convolutional neural network (CNN) to accurately identify different dog breeds.
 
@@ -36,17 +36,23 @@ This is a broad overview of the main table of contents for this notebook:
 ---
 ## Technical Specifications
 
-Begin by downloading the repo [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai). If you don't have the dataset `.zip` file, download it from [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification/data) (A free Kaggle account is needed).
+Begin by downloading or cloning my repo [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai).
 
 ### Local Development
 
 If you run this notebook locally, I recommend running it with administrative privileges.
 
-This project was coded locally in a virtual environment using [Anaconda notebooks](https://anaconda.org/). When working with Anaconda I recommend creating a separate development environment before starting. You can use my base env. file `environment.yml` from the GitHub repo.
+This project was coded locally in a virtual environment using [Anaconda notebooks](https://anaconda.org/). When working with Anaconda I recommend creating a separate development environment before starting. You can download and use my conda env. file `environment.yml`, and Python packages `requirements.txt` in the GitHub repo.
+
+Install conda dependencies:
+`conda env create -f environment.yaml`
+
+Install Python packages:
+`pip install -r requirements.txt`
 
 ### Google Colab
 
-If you want an easy way to run this notebook, use cloud-hosted GPUs, and have an easy time with dependencies and packages, then use [Google Colab](https://colab.research.google.com/). To get started upload the `main.ipynb` to Colab. Then upload the dataset `.zip` file to your Google Drive. Lastly, change `colab = True` in the settings cell.
+If you want an easy way to run this notebook, use cloud-hosted GPUs, and have an easy time with dependencies and packages, then use [Google Colab](https://colab.research.google.com/). To get started upload the `main.ipynb` to Colab.
 
 ### Training Stats
 
@@ -56,13 +62,14 @@ When working with this notebook, a directory called `training` will be created. 
 
 My training was computed locally on an RTX-3070 GPU.
 
-Required installations and which versions I used (specified versions are not required):
+The main libraries I used (specified versions are not required):
+* Anaconda (1.11.1)
+    * Conda (23.3.1)
 * Python (3.10.9)
+    * pip (22.3.1)
 * PyTorch (2.0.0)
     * PyTorch CUDA (11.7)
 * Fast.ai (2.7.12)
-
-If you wish to use exactly my dependencies, and Python packages then download and use the `environment.yml` and `requirements.txt` respectively from the repo [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai).
 
 If your conda installation can't find a certain package to download, then a tip is to use the dependency name, and the `-c` flag to specify from what channel you wish to download the dependency from:
 
