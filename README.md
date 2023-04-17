@@ -4,9 +4,9 @@
 
 This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
-You can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the entire dataset as a `.zip` file (you need a free Kaggle account to be able to download the file.)
+You can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the entire dataset as a `.zip` file (you need a free Kaggle account to be able to download the file).
 
-This project employs the [Fast.ai](https://www.fast.ai/) library to create an image classification model that leverages transfer learning and a convolutional neural network (CNN) to accurately identify different dog breeds.
+This project employs the [Fast.ai](https://github.com/fastai/fastai) library to create an image classification model that leverages transfer learning and a convolutional neural network (CNN) to accurately identify different dog breeds.
 
 This project serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
 
@@ -36,7 +36,7 @@ This is a broad overview of the main table of contents for this notebook:
 ---
 ## Technical Specifications
 
-Begin by downloading the repo [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai). If you don't have the dataset `.zip` file, download it from [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification/data) (A free Kaggle account is needed.)
+Begin by downloading the repo [GitHub](https://github.com/krullmizter/dog-breed-identification-fastai). If you don't have the dataset `.zip` file, download it from [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification/data) (A free Kaggle account is needed).
 
 ### Local Development
 
@@ -75,8 +75,8 @@ If your conda installation can't find a certain package to download, then a tip 
 * Single or multi-item detection.
 * View bounding boxes.
 * Hover effect over the second scatter plot.
-* Clean up (remove `.zip` file.)
+* Clean up (remove `.zip` file).
 * Link to thesis when done.
 * Publish code, choose a license.
 ---
-Created by: Samuel Granvik [GitHub](https://github.com/krullmizter/) [LinkedIn](https://www.linkedin.com/in/samuel-granvik-93977013a/)
+Created by: Samuel Granvik [GitHub](https://github.com/krullmizter/) | [LinkedIn](https://www.linkedin.com/in/samuel-granvik-93977013a/)
