@@ -41,7 +41,7 @@ Begin by downloading or cloning the repo [GitHub](https://github.com/krullmizter
 
 If you run this notebook locally, I recommend using [Anaconda notebooks](https://anaconda.org/), creating a new enviroment, and running Anaconda with administrative privileges.
 
-You can download and use the base env. files: `environment.yaml`, `requirements.txt` for conda, and Python respectivly. The file can be found in the [repo](https://github.com/krullmizter/dog-breed-id-fastai/tree/main/venv).
+You can download and use the base env. files: `environment.yaml`, `requirements.txt` for conda, and Python respectivly. The files can be found in the [repo](https://github.com/krullmizter/dog-breed-id-fastai/tree/main/venv).
 
 Create a conda env. from the terminal:
 `conda env create -f environment.yaml`, or import the `environment.yaml` file into your Anaconda navigator.
