@@ -2,7 +2,7 @@
 ---
 ## Description
 
-This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
+This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/), which is a subset of the much larger ImageNet dataset.
 
 This notebook will automatically download the Stanford dataset from my personal Google Drive, via a public link. But if you prefer you can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the dataset as a `.zip` file from Kaggle (you need a free Kaggle account to be able to download the file). If you do download the `.zip` file yourself, be sure to unzip the file in the repo's root dir., and rename the file: `stanford-dogs-dataset`
 
@@ -10,7 +10,7 @@ This project employs Python and the [Fast.ai](https://github.com/fastai/fastai) 
 
 This project also serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
 
-This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, image pre-processing among others.
+This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, data augmentation, image pre-processing among others.
 
 ---
 ## Goals
@@ -26,8 +26,8 @@ This is a broad overview of the main table of contents of this notebook:
 1.   Installs, Imports & Settings
 2.   Load the dataset
 3.   EDA
-4.   Training
-5.   Dataloader
+4.   Dataloader
+5.   Training
 6.   Logging
 7.   Post-Training Analysis
 8.   Predictions
