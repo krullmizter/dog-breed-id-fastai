@@ -39,7 +39,7 @@ Begin by downloading or cloning the repo [GitHub](https://github.com/krullmizter
 
 ### Local Development (Anaconda)
 
-If you run this notebook locally, I recommend using [Anaconda notebooks](https://anaconda.org/), creating a new enviroment, and running Anaconda with administrative privileges.
+If you run this notebook locally, I recommend using Jupyter Notebook like [Anaconda notebooks](https://anaconda.org/), creating a new enviroment, and running Anaconda with administrative privileges.
 
 You can download and use the base env. files: `environment.yaml`, `requirements.txt` for conda, and Python respectivly. The files can be found in the [repo](https://github.com/krullmizter/dog-breed-id-fastai/tree/main/venv).
 
@@ -83,6 +83,26 @@ The main software and libraries I used (specified versions are not required):
 * View bounding boxes.
 * Hover effect over the second scatter plot.
 * Link to thesis when done.
-* Publish code, choose a license.
 ---
-Created by: Samuel Granvik [GitHub](https://github.com/krullmizter/) | [LinkedIn](https://www.linkedin.com/in/samuel-granvik-93977013a/)
+
+## Copyright 
+
+Copyright (C) 2023 Samuel Granvik
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+---
+This code was created by Samuel Granvik. If you use or modify this code, please give attribution to Samuel Granvik. 
+
+Links: [Email](samgran@outlook.com) | [GitHub](https://github.com/krullmizter/) | [LinkedIn](https://www.linkedin.com/in/samuel-granvik-93977013a/)
