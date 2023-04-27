@@ -10,7 +10,7 @@ This project employs Python and the [Fast.ai](https://github.com/fastai/fastai) 
 
 This project also serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
 
-This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, data augmentation, image pre-processing among others.
+This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, image pre-processing, comprehensive logging of traning statistics among others.
 
 ---
 ## Goals
