@@ -2,6 +2,7 @@
 *.zip
 *.json
 .DS_Store
+*.pkl
 
 # Project Specific
 stanford-dogs-dataset

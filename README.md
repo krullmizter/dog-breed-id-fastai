@@ -32,10 +32,11 @@ This is a broad overview of the main table of contents of this notebook:
 7.   Post-Training Analysis
 8.   Predictions
 9.   Exports
+10.  Import trained model
 ---
 ## Technical Specifications
 
-Begin by downloading or cloning the repo [GitHub](https://github.com/krullmizter/dog-breed-id-fastai).
+Begin by downloading or cloning this projects public repo [GitHub](https://github.com/krullmizter/dog-breed-id-fastai).
 
 ### Local Development (Anaconda)
 
@@ -78,7 +79,6 @@ The main software and libraries I used (specified versions are not required):
 
 ---
 ## TODO
-* Better: `item_tfms` and `batch_tfms`.
 * Single or multi-item detection.
 * View bounding boxes.
 * Hover effect over the second scatter plot.
