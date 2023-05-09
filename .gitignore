@@ -1,6 +1,5 @@
 # General
 *.zip
-*.json
 .DS_Store
 *.pkl
 

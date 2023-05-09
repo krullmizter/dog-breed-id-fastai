@@ -1,0 +1,663 @@
+{
+  "2d25a41cb5035806bac14a6458d967a795b3015e49a64ff2b8d8d18c364d41ba": [
+    {
+      "Time Created": "27/04/2023 - 13:32:01",
+      "Training Time": "00:04:50",
+      "Arch": "resnet101",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 1,
+      "BS": 32,
+      "SZ": 224,
+      "LR": "4.79e-04",
+      "Transforms?": false,
+      "Loss(%)": 47.7,
+      "Error(%)": 13.8,
+      "Accuracy(%)": 86.2
+    }
+  ],
+  "86dc22dd8889b46ccd089e4cca9c4aba6ab4104c2981abe24f7d63ff28b4d40a": [
+    {
+      "Time Created": "27/04/2023 - 14:16:45",
+      "Training Time": "00:43:03",
+      "Arch": "resnet101",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 15,
+      "BS": 32,
+      "SZ": 224,
+      "LR": "5.75e-04",
+      "Transforms?": false,
+      "Loss(%)": 56.78,
+      "Error(%)": 13.7,
+      "Accuracy(%)": 86.3
+    }
+  ],
+  "f5543b5fecb0f3931fbb7e75eedf4171fca451b4ca193ae984e3629878db346e": [
+    {
+      "Time Created": "27/04/2023 - 15:01:15",
+      "Training Time": "00:41:58",
+      "Arch": "resnet101",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 15,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "4.79e-04",
+      "Transforms?": false,
+      "Loss(%)": 44.45,
+      "Error(%)": 12.52,
+      "Accuracy(%)": 87.48
+    }
+  ],
+  "363d22445a40af39c5027f936b97d6b747af23bb883c5aac2e180705d76cb2de": [
+    {
+      "Time Created": "27/04/2023 - 16:12:08",
+      "Training Time": "01:08:48",
+      "Arch": "resnet101",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 25,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "1.45e-03",
+      "Transforms?": false,
+      "Loss(%)": 73.86,
+      "Error(%)": 16.29,
+      "Accuracy(%)": 83.71
+    }
+  ],
+  "5fe28f2beda25d8196d53e640a3cd87f269976228c02d8187e9eb470ebe1b514": [
+    {
+      "Time Created": "27/04/2023 - 17:57:53",
+      "Training Time": "00:15:20",
+      "Arch": "resnet101",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "3.98e-04",
+      "Transforms?": false,
+      "Loss(%)": 43.27,
+      "Error(%)": 12.28,
+      "Accuracy(%)": 87.72
+    }
+  ],
+  "29d36ed01178c1f4ec00a7719b54b5c77d7b865d146c97f9df5a5070ad00f59f": [
+    {
+      "Time Created": "27/04/2023 - 18:23:27",
+      "Training Time": "00:15:28",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "1.00e-04",
+      "Transforms?": false,
+      "Loss(%)": 43.46,
+      "Error(%)": 12.23,
+      "Accuracy(%)": 87.77
+    }
+  ],
+  "843eb5aa03d0d8d1ddd37b68d7516e0ccb57db971a19cbcdeab33302e9020986": [
+    {
+      "Time Created": "27/04/2023 - 18:45:41",
+      "Training Time": "00:14:51",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "1.00e-01",
+      "Transforms?": false,
+      "Loss(%)": 1294740.23,
+      "Error(%)": 91.24,
+      "Accuracy(%)": 8.76
+    }
+  ],
+  "8cca5c9e637de1c3ce014c6a64630c945e7897d74291d6f3f1a529de01c2358f": [
+    {
+      "Time Created": "27/04/2023 - 19:30:03",
+      "Training Time": "00:28:41",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 10,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "1.00e-04",
+      "Transforms?": false,
+      "Loss(%)": 42.04,
+      "Error(%)": 12.48,
+      "Accuracy(%)": 87.52
+    }
+  ],
+  "cf213a11ddc62673e077ec2ae0b40da0ed456b2485ccaf53e24b3aad25aec7b1": [
+    {
+      "Time Created": "27/04/2023 - 19:52:01",
+      "Training Time": "00:15:24",
+      "Arch": "resnet101",
+      "Opt. Func.": "SGD",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "1.00e-04",
+      "Transforms?": false,
+      "Loss(%)": 54.79,
+      "Error(%)": 15.75,
+      "Accuracy(%)": 84.25
+    }
+  ],
+  "a0474bf2271e1b46e3d7d1a85341122eddedae0be25161f37458aa74ddfb6cde": [
+    {
+      "Time Created": "27/04/2023 - 20:16:47",
+      "Training Time": "00:09:54",
+      "Arch": "resnet50",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "1.00e-04",
+      "Transforms?": false,
+      "Loss(%)": 65.01,
+      "Error(%)": 17.76,
+      "Accuracy(%)": 82.24
+    }
+  ],
+  "85813e86004145eef631562c1401cc40fbe76587996f1785c0e28d7a10532a02": [
+    {
+      "Time Created": "27/04/2023 - 20:26:48",
+      "Training Time": "00:07:47",
+      "Arch": "resnet34",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "1.00e-04",
+      "Transforms?": false,
+      "Loss(%)": 181.06,
+      "Error(%)": 41.63,
+      "Accuracy(%)": 58.37
+    }
+  ],
+  "3fbbf5209eb2cb54ca1f1876495ff971097bef723eff6be26a8ad2c386967839": [
+    {
+      "Time Created": "27/04/2023 - 20:39:34",
+      "Training Time": "00:09:54",
+      "Arch": "resnet50",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "4.79e-04",
+      "Transforms?": false,
+      "Loss(%)": 50.51,
+      "Error(%)": 15.07,
+      "Accuracy(%)": 84.93
+    }
+  ],
+  "1a7453a418bde83212698ee2a3d0d391e954cda9b5e04b4f743645693581ae3c": [
+    {
+      "Time Created": "28/04/2023 - 09:41:35",
+      "Training Time": "00:07:14",
+      "Arch": "resnet50",
+      "Opt. Func.": "Adam",
+      "GPU": "NVIDIA GeForce RTX 3070",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": false,
+      "Loss(%)": 54.47,
+      "Error(%)": 15.41,
+      "Accuracy(%)": 84.59
+    }
+  ],
+  "e77992a913919ebb15b3fce71619335fadcbcbadb68c36b349fb5d5b9925e7fb": [
+    {
+      "Time Created": "28/04/2023 - 07:30:51",
+      "Training Time": "00:21:55",
+      "Arch": "resnet152",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "5.75e-04",
+      "Transforms?": false,
+      "Loss(%)": 46.16,
+      "Error(%)": 12.72,
+      "Accuracy(%)": 87.28
+    }
+  ],
+  "9d85280b5f4116239001714dc55d1370decf38867994efd5050968d5aa9400d1": [
+    {
+      "Time Created": "28/04/2023 - 07:50:42",
+      "Training Time": "00:15:53",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": false,
+      "Loss(%)": 41.03,
+      "Error(%)": 11.55,
+      "Accuracy(%)": 88.45
+    }
+  ],
+  "03d91e06f57556cafb3286af970cbedcc5732441802ec12a304b808c3b029503": [
+    {
+      "Time Created": "28/04/2023 - 08:09:16",
+      "Training Time": "00:16:02",
+      "Arch": "resnet101",
+      "Opt. Func.": "SGD",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": false,
+      "Loss(%)": 43.74,
+      "Error(%)": 12.04,
+      "Accuracy(%)": 87.96
+    }
+  ],
+  "28b7347540318884c89e9311eae881dd1f951829d3b5739ae594e068394762ce": [
+    {
+      "Time Created": "28/04/2023 - 08:47:00",
+      "Training Time": "00:30:09",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 10,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": false,
+      "Loss(%)": 51.74,
+      "Error(%)": 13.11,
+      "Accuracy(%)": 86.89
+    }
+  ],
+  "a46a321aca18231c05017e127fa28f6366692160ed15411206b9a03703f131b2": [
+    {
+      "Time Created": "28/04/2023 - 09:13:03",
+      "Training Time": "00:21:14",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 7,
+      "BS": 64,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": false,
+      "Loss(%)": 41.46,
+      "Error(%)": 11.64,
+      "Accuracy(%)": 88.36
+    }
+  ],
+  "129102c3d3d957637602886cb02750886cab22b0849cd7f7881bab908e1f86d3": [
+    {
+      "Time Created": "28/04/2023 - 09:40:53",
+      "Training Time": "00:15:41",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 75,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": false,
+      "Loss(%)": 38.79,
+      "Error(%)": 11.11,
+      "Accuracy(%)": 88.89
+    }
+  ],
+  "3beb2357b3588c2254e29696fba8c8deb61fb619b1b9c1c75f90d208231d3bfc": [
+    {
+      "Time Created": "28/04/2023 - 10:09:28",
+      "Training Time": "00:15:49",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 75,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": true,
+      "Loss(%)": 43.0,
+      "Error(%)": 12.33,
+      "Accuracy(%)": 87.67
+    }
+  ],
+  "3b08bad99487e4b41dcaef8e1422c936100d267a9454a1d454b15d8786d856e1": [
+    {
+      "Time Created": "28/04/2023 - 10:37:50",
+      "Training Time": "00:21:50",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 7,
+      "BS": 75,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": true,
+      "Loss(%)": 44.74,
+      "Error(%)": 12.57,
+      "Accuracy(%)": 87.43
+    }
+  ],
+  "fcff46a17365bef4ed167ebf74d8878a039dbc072a3ce94804bf53a0837d60ff": [
+    {
+      "Time Created": "28/04/2023 - 11:22:31",
+      "Training Time": "00:15:59",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 75,
+      "SZ": 224,
+      "LR": "3.31e-04",
+      "Transforms?": true,
+      "Loss(%)": 48.24,
+      "Error(%)": 15.07,
+      "Accuracy(%)": 84.93
+    }
+  ],
+  "fe96661c16e15860369841efb654633614b999d48de823b76f65701447ba6a1e": [
+    {
+      "Time Created": "28/04/2023 - 16:48:43",
+      "Training Time": "00:41:02",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 15,
+      "BS": 80,
+      "SZ": 224,
+      "LR": "6.92e-04",
+      "Transforms?": true,
+      "Loss(%)": 40.12,
+      "Error(%)": 11.99,
+      "Accuracy(%)": 88.01
+    }
+  ],
+  "0baa7f556e5b844c0e449be321d7cec8d732bc3a1a547fea291f91376fa8b868": [
+    {
+      "Time Created": "30/04/2023 - 09:35:08",
+      "Training Time": "00:23:56",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 8,
+      "BS": 70,
+      "SZ": 224,
+      "LR": "5.75e-04",
+      "Transforms?": true,
+      "Loss(%)": 42.09,
+      "Error(%)": 12.82,
+      "Accuracy(%)": 87.18
+    }
+  ],
+  "38a52aeda066844ce45feddf280f2dd2b7b948a39194cd9b327d602bc6e5e27e": [
+    {
+      "Time Created": "30/04/2023 - 10:08:52",
+      "Training Time": "00:24:03",
+      "Arch": "resnet101",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 8,
+      "BS": 70,
+      "SZ": 224,
+      "LR": "1.20e-03",
+      "Transforms?": true,
+      "Loss(%)": 71.92,
+      "Error(%)": 21.92,
+      "Accuracy(%)": 78.08
+    }
+  ],
+  "c157ffe183fe4beedf4b31f1f95cb472a828aa01d830fa9ee79922d97dc65526": [
+    {
+      "Time Created": "30/04/2023 - 10:25:09",
+      "Training Time": "00:13:16",
+      "Arch": "vgg16",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 70,
+      "SZ": 224,
+      "LR": "1.74e-03",
+      "Transforms?": true,
+      "Loss(%)": 86.48,
+      "Error(%)": 25.88,
+      "Accuracy(%)": 74.12
+    }
+  ],
+  "d9447529bf20eac58da2079688c6e8bbfe60ec21afe2973370e8423136dab68f": [
+    {
+      "Time Created": "30/04/2023 - 10:34:58",
+      "Training Time": "00:06:52",
+      "Arch": "googlenet",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 70,
+      "SZ": 224,
+      "LR": "2.09e-03",
+      "Transforms?": true,
+      "Loss(%)": 79.26,
+      "Error(%)": 23.09,
+      "Accuracy(%)": 76.91
+    }
+  ],
+  "37f81b12360d82d1eb34bf5b55233aac49106dc90c7bbc1cddd78927016b9574": [
+    {
+      "Time Created": "30/04/2023 - 10:43:46",
+      "Training Time": "00:06:01",
+      "Arch": "mobilenet_v3_small",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 70,
+      "SZ": 224,
+      "LR": "1.20e-03",
+      "Transforms?": true,
+      "Loss(%)": 181.93,
+      "Error(%)": 47.46,
+      "Accuracy(%)": 52.54
+    }
+  ],
+  "8f13f5fbea0dadfe20d96685323eac667f5471bb8464b9d00f004673a3d6450e": [
+    {
+      "Time Created": "30/04/2023 - 11:59:38",
+      "Training Time": "00:41:31",
+      "Arch": "convnext_base",
+      "Opt. Func.": "Adam",
+      "GPU": "Tesla T4",
+      "Train/Val. Split(%)": 20,
+      "EP": 3,
+      "BS": 50,
+      "SZ": 224,
+      "LR": "1.45e-03",
+      "Transforms?": true,
+      "Loss(%)": 20.96,
+      "Error(%)": 4.79,
+      "Accuracy(%)": 95.21
+    }
+  ],
+  "71e15f0bce029a388129cd31b9cc1d4d122d76873cb0a0d48bc4da7f14c6f867": [
+    {
+      "Time Created": "01/05/2023 - 13:22:56",
+      "Training Time": "00:07:45",
+      "Arch": "convnext_base",
+      "Opt. Func.": "Adam",
+      "GPU": "NVIDIA A100-SXM4-40GB",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 75,
+      "SZ": 224,
+      "LR": "6.92e-04",
+      "Transforms?": true,
+      "Loss(%)": 18.54,
+      "Error(%)": 4.79,
+      "Accuracy(%)": 95.21
+    }
+  ],
+  "c91d60f6b5d345b27fd5565774d7486b9e86a5aad2200f4651b0009f6b87e8cd": [
+    {
+      "Time Created": "01/05/2023 - 13:52:41",
+      "Training Time": "00:14:13",
+      "Arch": "convnext_base",
+      "Opt. Func.": "Adam",
+      "GPU": "NVIDIA A100-SXM4-40GB",
+      "Train/Val. Split(%)": 20,
+      "EP": 10,
+      "BS": 100,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": true,
+      "Loss(%)": 20.19,
+      "Error(%)": 4.79,
+      "Accuracy(%)": 95.21
+    }
+  ],
+  "e6dd519a28a63696c8103dc9dba3da112186099a821731500e53a2e0ac492ea1": [
+    {
+      "Time Created": "01/05/2023 - 15:02:29",
+      "Training Time": "00:07:30",
+      "Arch": "convnext_base",
+      "Opt. Func.": "Adam",
+      "GPU": "NVIDIA A100-SXM4-40GB",
+      "Train/Val. Split(%)": 20,
+      "EP": 5,
+      "BS": 125,
+      "SZ": 224,
+      "LR": "1.00e-03",
+      "Transforms?": true,
+      "Loss(%)": 17.72,
+      "Error(%)": 4.75,
+      "Accuracy(%)": 95.25
+    }
+  ],
+  "e4a244109d3f40daa9d9e15479493bf2ef7e1974ad60d5d78a1183589560edd5": [
+    {
+      "Time Created": "01/05/2023 - 15:42:15",
+      "Training Time": "00:18:33",
+      "Arch": "convnext_large",
+      "Opt. Func.": "Adam",
+      "GPU": "NVIDIA A100-SXM4-40GB",
+      "Train/Val. Split(%)": 20,
+      "EP": 7,
+      "BS": 85,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": true,
+      "Loss(%)": 15.44,
+      "Error(%)": 3.72,
+      "Accuracy(%)": 96.28
+    }
+  ],  
+  "7d6a20a869845e4f235a4a91282fad62efb23431db726ab0e2dd5a6030075140": [
+    {
+      "Time Created": "08/05/2023 - 09:27:02",
+      "Training Time": "00:04:52",
+      "Arch": "convnext_base",
+      "Opt. Func.": "Adam",
+      "GPU": "NVIDIA A100-SXM4-40GB",
+      "Train/Val. Split(%)": 20,
+      "EP": 3,
+      "BS": 86,
+      "SZ": 224,
+      "LR": "4.79e-04",
+      "Transforms?": true,
+      "Loss(%)": 18.52,
+      "Error(%)": 5.28,
+      "Accuracy(%)": 94.72
+    }
+  ],
+  "41597ffead75beb71d8acd9c057a47739256c7912eee26d70dad32fb6e740db3": [
+    {
+      "Time Created": "08/05/2023 - 09:43:52",
+      "Training Time": "00:04:52",
+      "Arch": "convnext_base",
+      "Opt. Func.": "Adam",
+      "GPU": "NVIDIA A100-SXM4-40GB",
+      "Train/Val. Split(%)": 20,
+      "EP": 3,
+      "BS": 85,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": true,
+      "Loss(%)": 20.72,
+      "Error(%)": 6.16,
+      "Accuracy(%)": 93.84
+    }
+  ],
+  "cd8dd47c43348fba3cab0276524dbb0f117ffdf32a5c7ecfe1bd9e946c7d2d58": [
+    {
+      "Time Created": "08/05/2023 - 10:24:23",
+      "Training Time": "00:10:18",
+      "Arch": "convnext_base",
+      "Opt. Func.": "Adam",
+      "GPU": "NVIDIA A100-SXM4-40GB",
+      "Train/Val. Split(%)": 20,
+      "EP": 7,
+      "BS": 85,
+      "SZ": 224,
+      "LR": "8.32e-04",
+      "Transforms?": true,
+      "Loss(%)": 16.48,
+      "Error(%)": 5.33,
+      "Accuracy(%)": 94.67
+    }
+  ],
+  "20987027ad1dae18fbae27a636b3278dd293f37143015275af4a73578302e643": [
+    {
+      "Time Created": "08/05/2023 - 10:52:58",
+      "Training Time": "00:25:53",
+      "Arch": "convnext_large",
+      "Opt. Func.": "Adam",
+      "GPU": "NVIDIA A100-SXM4-40GB",
+      "Train/Val. Split(%)": 20,
+      "EP": 10,
+      "BS": 85,
+      "SZ": 224,
+      "LR": "6.92e-04",
+      "Transforms?": true,
+      "Loss(%)": 15.14,
+      "Error(%)": 3.67,
+      "Accuracy(%)": 96.33
+    }
+  ]
+}
