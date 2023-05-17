@@ -10,7 +10,7 @@ This project employs Python and the [Fast.ai](https://github.com/fastai/fastai) 
 
 This project also serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
 
-This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, image pre-processing, comprehensive logging of traning statistics among others.
+This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, image pre-processing, comprehensive logging of training statistics among others.
 
 ---
 ## Goals
@@ -40,9 +40,9 @@ Begin by downloading or cloning this projects public repo [GitHub](https://githu
 
 ### Local Development (Anaconda)
 
-If you run this notebook locally, I recommend using Jupyter Notebook like [Anaconda notebooks](https://anaconda.org/), creating a new enviroment, and running Anaconda with administrative privileges.
+If you run this notebook locally, I recommend using Jupyter Notebook like [Anaconda notebooks](https://anaconda.org/), creating a new environment, and running Anaconda with administrative privileges.
 
-You can download and use the base env. files: `environment.yaml`, `requirements.txt` for conda, and Python respectivly. The files can be found in the [repo](https://github.com/krullmizter/dog-breed-id-fastai/tree/main/venv).
+You can download and use the base env. files: `environment.yaml`, `requirements.txt` for conda, and Python respectively. The files can be found in the [repo](https://github.com/krullmizter/dog-breed-id-fastai/tree/main/venv).
 
 Create a conda env. from the terminal:
 `conda env create -f environment.yaml`, or import the `environment.yaml` file into your Anaconda navigator.
@@ -79,7 +79,6 @@ The main software and libraries I used (specified versions are not required):
 
 ---
 ## TODO
-* Single or multi-item detection.
 * View bounding boxes.
 * Hover effect over the second scatter plot.
 * Link to thesis when done.
