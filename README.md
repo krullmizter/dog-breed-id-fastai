@@ -2,15 +2,13 @@
 ---
 ## Description
 
-This project will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/), which is a subset of the much larger ImageNet dataset.
+This notebook will take on a dog breed identification challenge by [Kaggle](https://www.kaggle.com/competitions/dog-breed-identification). The challenge uses the [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/), which is a subset of the much larger ImageNet dataset. This notebook also serves as a technical guide, or specification for developing a dog breed identification model using Fast.ai's CNN with transfer learning.
 
-This notebook will automatically download the Stanford dataset from my personal Google Drive, via a public link. But if you prefer you can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the dataset as a `.zip` file from Kaggle (you need a free Kaggle account to be able to download the file). If you do download the `.zip` file yourself, be sure to unzip the file in the repo's root dir., and rename the file: `stanford-dogs-dataset`
+This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, image pre-processing, comprehensive logging of training statistics, the usage of libraries such as pandas, numpy and matplotlib among others.
 
-This project employs Python and the [Fast.ai](https://github.com/fastai/fastai) library to create an image classification model that leverages transfer learning and a convolutional neural network (CNN) to accurately and efficiently identify dog breeds trained on the Stanford Dogs dataset.
+This project also serves as the technical foundation for my bachelor's thesis on dog breed identification. The aim of this notebook, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
 
-This project also serves as the technical foundation for my bachelor's thesis on dog breed classification. The aim of this project, as well as my thesis, is to evaluate the efficiency and accuracy of my model when compared to similar models trained on the Standford Dogs Dataset.
-
-This notebook additionally explores the concepts of exploratory data analysis (EDA), data augmentation, image pre-processing, comprehensive logging of training statistics among others.
+This notebook is quite extensively documented, and uses various comments, and text cells to explain the development process. The combination of this notebook, and my thesis creates a unified "guide" to doing image classification using Fast.ai. Feel free to comment, critique, and create your own version of this notebook.
 
 ---
 ## Goals
@@ -36,6 +34,10 @@ This is a broad overview of the main table of contents of this notebook:
 ---
 ## Technical Specifications
 
+This notebook will automatically download the Stanford dataset from my personal Google Drive, via a public link. But if you prefer you can [download](https://www.kaggle.com/competitions/dog-breed-identification/data) the dataset as a `.zip` file from Kaggle (you need a free Kaggle account to be able to download the file). If you do download the `.zip` file yourself, be sure to unzip the file in the repo's root dir., and rename the file: `stanford-dogs-dataset`
+
+This project employs Python and the [Fast.ai](https://github.com/fastai/fastai) library to create an image classification model that leverages transfer learning and a convolutional neural network (CNN) to accurately and efficiently identify dog breeds trained on the Stanford Dogs dataset.
+
 Begin by downloading or cloning this projects public repo [GitHub](https://github.com/krullmizter/dog-breed-id-fastai).
 
 ### Local Development (Anaconda)
@@ -51,7 +53,8 @@ Install all the base Python packages with pip:
 `pip install -r requirements.txt`
 
 #### Errors
-#### `PackagesNotFoundError`
+`PackagesNotFoundError`
+
 If your conda installation can't find a certain package to download, then a tip is to use the dependency name, and the `-c` flag to specify from what channel you wish to download the dependency from:
 
 `conda install fastai pytorch pytorch-cuda -c fastai -c pytorch -c nvidia`
@@ -105,3 +108,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 This code was created by Samuel Granvik. If you use or modify this code, please give attribution to Samuel Granvik. 
 
 Links: [Email](samgran@outlook.com) | [GitHub](https://github.com/krullmizter/) | [LinkedIn](https://www.linkedin.com/in/samuel-granvik-93977013a/)
+
+---
+
+<p>My dog Laban ❤️</p>
+<img src='laban.jpg' width='10%' height='10%' >
