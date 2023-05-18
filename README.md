@@ -61,6 +61,7 @@ If you run this notebook locally, I recommend using Jupyter Notebook like [Anaco
 
 **The conda dependencies (environment.yaml) are different from the pip (requirements.txt)!**:
 
+You need to be located in the directory of the `environment.yaml` to do this:
 `conda env create -f environment.yaml` 
 
 You can also create a new conda environment using the GUI called Anaconda navigator. You can then import the `environment.yaml` file into your Anaconda navigator.
