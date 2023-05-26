@@ -12,7 +12,7 @@ This notebook also serves as the technical foundation for my bachelor's thesis o
 
 This notebook is quite extensively documented, and uses various comments, and text cells to explain the development process. This notebook is not as detailed as my thesis, do read the thesis if you want a more in-depth understanding of the subjects brought up in this notebook. The combination of this notebook, and my thesis creates a unified "guide" to doing image classification using Fast.ai's CNN. Feel free to comment, critique, and create your own version of this notebook.
 
-- [Link to Thesis]() 📖
+- [Link to Thesis](https://www.theseus.fi/handle/10024/799064) 📖
 - [Link to Github](https://github.com/krullmizter/dog-breed-id-fastai)
 
 ---
@@ -97,7 +97,6 @@ The main software and libraries I used (specified versions are not required):
 ## TODO
 * View bounding boxes.
 * Hover effect over the second scatter plot.
-* Link to thesis when done.
 ---
 
 ## Copyright 
