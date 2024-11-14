@@ -142,7 +142,7 @@ mpmath==1.3.0
 msgpack @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b1f960af-3408-459c-81e6-6c3b55c6bc85wsdgof__/croots/recipe/msgpack-python_1652362662498/work
 multipledispatch @ file:///Users/ktietz/ci_310/multipledispatch_1643970671170/work
 munkres==1.1.4
-mypy-extensions==0.4.3
+mypy-extensions==1.0.0
 navigator-updater==0.3.0
 nbclassic @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_1f2l5sjrt5/croot/nbclassic_1676902898198/work
 nbclient @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-08wgx75f/nbclient_1650373566605/work
