@@ -217,7 +217,7 @@ PySocks @ file:///Users/ktietz/ci_310/pysocks_1643961536721/work
 pytest==7.1.2
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 python-lsp-black @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_7b710_d2gb/croots/recipe/python-lsp-black_1661852039860/work
-python-lsp-jsonrpc==1.0.0
+python-lsp-jsonrpc==1.1.2
 python-lsp-server @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a70n6i7fe9/croot/python-lsp-server_1677296765293/work
 python-slugify @ file:///tmp/build/80754af9/python-slugify_1620405669636/work
 python-snappy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_10sd7mcanc/croot/python-snappy_1670943921432/work
