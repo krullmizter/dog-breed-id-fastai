@@ -13,7 +13,7 @@ arrow @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_cc82
 astroid @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_e9yo8l0380/croot/astroid_1676904320145/work
 astropy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a287fcff-2786-410d-a786-8e1c0c9ee4abk3aj7bov/croots/recipe/astropy_1657786100723/work
 asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
-atomicwrites==1.4.0
+atomicwrites==1.4.1
 attrs @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_978y9aqcd7/croot/attrs_1668696180911/work
 Automat @ file:///tmp/build/80754af9/automat_1600298431173/work
 autopep8 @ file:///opt/conda/conda-bld/autopep8_1650463822033/work
