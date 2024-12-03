@@ -309,7 +309,7 @@ wurlitzer @ file:///Users/ktietz/ci_310/wurlitzer_1643969655374/work
 xarray @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_59mtp9c77n/croot/xarray_1668776594358/work
 xlwings @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c6m0e08tm3/croot/xlwings_1677024168480/work
 yapf @ file:///tmp/build/80754af9/yapf_1615749224965/work
-zict==2.1.0
+zict==3.0.0
 zipp @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8cv5zqoqed/croot/zipp_1672387131277/work
 zope.interface @ file:///Users/ktietz/ci_310/zope.interface_1643972839616/work
 zstandard @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_41b3vxtask/croot/zstandard_1677013668452/work
