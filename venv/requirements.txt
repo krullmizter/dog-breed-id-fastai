@@ -194,7 +194,7 @@ pycosat @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_e9
 pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pyct @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6dabxeyop1/croot/pyct_1675441482089/work
 pycurl==7.45.1
-PyDispatcher==2.0.5
+PyDispatcher==2.0.7
 pydocstyle @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a6672leo9a/croot/pydocstyle_1675221682894/work
 pyerfa @ file:///Users/ktietz/ci_310/pyerfa_1644262685380/work
 pyflakes @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d9_v8e0_nr/croot/pyflakes_1674165137080/work
