@@ -127,7 +127,7 @@ keyring @ file:///Users/ktietz/ci_310/keyring_1643962306190/work
 kiwisolver @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_93o8te804v/croot/kiwisolver_1672387163224/work
 lazy-object-proxy @ file:///Users/ktietz/ci_310/lazy-object-proxy_1643966535099/work
 libarchive-c @ file:///tmp/build/80754af9/python-libarchive-c_1617780486945/work
-llvmlite==0.39.1
+llvmlite==0.43.0
 locket @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_cb58d7ee-eabb-4e31-8a7c-68bb73b3bb2e3lthxgi7/croots/recipe/locket_1652903118916/work
 lxml @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_71bcfe2b-fe7b-414a-9d7e-4f32bdd95f6d2vxca0jd/croots/recipe/lxml_1657545136492/work
 lz4 @ file:///Users/ktietz/ci_310/lz4_1643977262863/work
