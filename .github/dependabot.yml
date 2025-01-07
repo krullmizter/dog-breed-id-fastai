@@ -17,4 +17,3 @@ updates:
       - "pip"
     reviewers:
       - "krullmizter"
-    security-updates: true
