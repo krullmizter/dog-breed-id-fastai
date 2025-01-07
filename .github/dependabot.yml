@@ -7,22 +7,14 @@ updates:
       interval: "daily"
     groups:
       dev-dependencies:
-        patterns: 
+        patterns:
           - "*"
       security:
         patterns:
           - ".*"
-        labels:
-          - "security"
     labels:
       - "dependencies"
-      - "auto-merge"
       - "pip"
     reviewers:
       - "krullmizter"
     security-updates: true
-
-auto-merge:
-  - match:
-      dependency_type: "all"
-      update_type: "semver:minor"
