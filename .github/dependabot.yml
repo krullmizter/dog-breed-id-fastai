@@ -1,11 +1,28 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
 version: 2
+
 updates:
-  - package-ecosystem: "pip" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "pip"
+    directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    groups:
+      dev-dependencies:
+        patterns: 
+          - "*"
+      security:
+        patterns:
+          - ".*"
+        labels:
+          - "security"
+    labels:
+      - "dependencies"
+      - "auto-merge"
+      - "pip"
+    reviewers:
+      - "krullmizter"
+    security-updates: true
+
+auto-merge:
+  - match:
+      dependency_type: "all"
+      update_type: "semver:minor"
