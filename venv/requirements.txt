@@ -211,7 +211,7 @@ pyobjc-framework-FSEvents @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl46
 pyodbc @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2f_o9a2x_h/croots/recipe/pyodbc_1659513806921/work
 pyOpenSSL @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_38h4axtq38/croot/pyopenssl_1677607699670/work
 pyparsing @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_3b_3vxnd07/croots/recipe/pyparsing_1661452540919/work
-PyQt5-sip==12.16.1
+PyQt5-sip==12.17.0
 pyrsistent @ file:///Users/ktietz/ci_310/pyrsistent_1643962172005/work
 PySocks @ file:///Users/ktietz/ci_310/pysocks_1643961536721/work
 pytest==8.3.4
