@@ -1,0 +1,38 @@
+name: Dependabot auto-approve and merge
+on: [pull_request, workflow_dispatch]
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  dependabot:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    steps:
+      - name: Check for open Dependabot PRs
+        id: check_open_prs
+        run: |
+          gh pr list --label dependencies --state open --json number,title | jq '.[] | select(.title | contains("dependabot"))' > open_prs.json
+          if [ -s open_prs.json ]; then
+            echo "Dependabot PR already open. Skipping approval and merge."
+            exit 0
+          fi
+
+      - name: Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v1
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      
+      - name: Approve a PR
+        run: gh pr review --approve "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Merge PR
+        run: gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
