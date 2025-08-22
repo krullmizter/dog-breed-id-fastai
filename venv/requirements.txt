@@ -159,7 +159,7 @@ numpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d18v
 numpydoc @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_654ttvu6xi/croot/numpydoc_1668085908643/work
 openpyxl==3.1.5
 packaging @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_952b3b8pj8/croot/packaging_1671697425767/work
-pandas==2.3.1
+pandas==2.3.2
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 panel @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_ee47osobek/croot/panel_1676379694388/work
 param @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_fa4mnk6slc/croot/param_1671697440077/work
