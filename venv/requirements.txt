@@ -168,7 +168,7 @@ parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 partd @ file:///opt/conda/conda-bld/partd_1647245470509/work
 pathlib @ file:///Users/ktietz/demo/mc3/conda-bld/pathlib_1629713961906/work
 pathspec @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f954ebvbxx/croot/pathspec_1674681573969/work
-patsy==1.0.1
+patsy==1.0.2
 pep8==1.7.1
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
