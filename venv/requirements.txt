@@ -244,7 +244,7 @@ ruamel.yaml @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/ab
 ruamel.yaml.clib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f64xdg2rww/croot/ruamel.yaml.clib_1666302244208/work
 scikit-image @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2dnc0r7yu5/croot/scikit-image_1669241742476/work
 scikit-learn @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d8r_ofrzm7/croot/scikit-learn_1676911660546/work
-scipy==1.16.3
+scipy==1.17.0
 Scrapy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_31eklp9fz0/croot/scrapy_1677738194352/work
 seaborn @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2ci8qzbdyk/croot/seaborn_1673479197351/work
 Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
