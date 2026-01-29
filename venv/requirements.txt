@@ -1,5 +1,5 @@
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
-anaconda-client==1.13.0
+anaconda-client==1.14.0
 anaconda-navigator==2.4.0
 anaconda-project @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6ddp1qj6b_/croots/recipe/anaconda-project_1660339893712/work
 anyio @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/croot-t_zs64wy/anyio_1644482593257/work/dist
