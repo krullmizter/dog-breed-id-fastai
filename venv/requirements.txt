@@ -54,7 +54,7 @@ constantly==23.10.4
 contourpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_97c8ctlp86/croots/recipe/contourpy_1663827422071/work
 cookiecutter @ file:///opt/conda/conda-bld/cookiecutter_1649151442564/work
 cryptography @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a9zjqvif1f/croot/cryptography_1677533099634/work
-cssselect==1.3.0
+cssselect==1.4.0
 cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
 cytoolz @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f5nc6i6g4j/croot/cytoolz_1667465935655/work
 dask @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_171faabf-b047-4266-b5dd-252e45545758_3oxumz3/croots/recipe/dask-core_1658513223950/work
@@ -232,7 +232,7 @@ qstylizer @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_
 QtAwesome @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_204g337__t/croot/qtawesome_1674008697341/work
 qtconsole @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_17u9pzjaj7/croot/qtconsole_1674008447244/work
 QtPy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_90hl8ymlpx/croots/recipe/qtpy_1662014534092/work
-queuelib==1.8.0
+queuelib==1.9.0
 regex @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c16d2a8a-126e-4d7e-8084-357d1f1d1103zj2vwnhn/croots/recipe/regex_1658257182710/work
 requests @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b15e28ca-768e-4951-b4c6-8a7476e43183hrjpnkg9/croots/recipe/requests_1657734638595/work
 requests-file @ file:///Users/ktietz/demo/mc3/conda-bld/requests-file_1629455781986/work
