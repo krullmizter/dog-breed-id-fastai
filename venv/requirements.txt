@@ -76,7 +76,7 @@ filelock @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2
 flake8 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_902fhgw5pe/croot/flake8_1674581817635/work
 Flask @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_9ctftfb254/croot/flask_1671217361609/work
 flit_core @ file:///opt/conda/conda-bld/flit-core_1644941570762/work/source/flit_core
-fonttools==4.62.0
+fonttools==4.62.1
 fsspec @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c8b8kofgq9/croot/fsspec_1670336600001/work
 future @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_14jxr8efxg/croot/future_1677599893084/work
 gensim @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_59snnhi6c_/croot/gensim_1674852450457/work
@@ -138,7 +138,7 @@ matplotlib-inline @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000g
 mccabe @ file:///opt/conda/conda-bld/mccabe_1644221741721/work
 mistune @ file:///Users/ktietz/ci_310/mistune_1643966732634/work
 mock @ file:///tmp/build/80754af9/mock_1607622725907/work
-mpmath==1.4.0
+mpmath==1.4.1
 msgpack @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b1f960af-3408-459c-81e6-6c3b55c6bc85wsdgof__/croots/recipe/msgpack-python_1652362662498/work
 multipledispatch @ file:///Users/ktietz/ci_310/multipledispatch_1643970671170/work
 munkres==1.1.4
