@@ -300,7 +300,7 @@ urllib3 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8f
 w3lib @ file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work
 watchdog @ file:///Users/ktietz/ci_310/watchdog_1643972628664/work
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-webencodings==0.5.1
+webencodings==0.6.1
 websocket-client @ file:///Users/ktietz/ci_310/websocket-client_1643972661291/work
 Werkzeug @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_54t7yp6vfo/croot/werkzeug_1671215998207/work
 whatthepatch @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_fb6zrbk5ws/croots/recipe/whatthepatch_1661795996299/work
