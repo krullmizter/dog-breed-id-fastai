@@ -1,5 +1,5 @@
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
-anaconda-client==1.15.0
+anaconda-client==1.16.0
 anaconda-navigator==2.4.0
 anaconda-project @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6ddp1qj6b_/croots/recipe/anaconda-project_1660339893712/work
 anyio @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/croot-t_zs64wy/anyio_1644482593257/work/dist
@@ -76,7 +76,7 @@ filelock @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2
 flake8 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_902fhgw5pe/croot/flake8_1674581817635/work
 Flask @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_9ctftfb254/croot/flask_1671217361609/work
 flit_core @ file:///opt/conda/conda-bld/flit-core_1644941570762/work/source/flit_core
-fonttools==4.66.1
+fonttools==4.67.0
 fsspec @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c8b8kofgq9/croot/fsspec_1670336600001/work
 future @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_14jxr8efxg/croot/future_1677599893084/work
 gensim @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_59snnhi6c_/croot/gensim_1674852450457/work
